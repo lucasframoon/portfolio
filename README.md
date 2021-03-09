@@ -7,6 +7,6 @@ O controle das tarefas desse projeto será realizado no GitHub
 ## Ícones
 
 :package: nova funcionalidade
-:uo: atualização(texto, formatação)
-:beatle: correção de bug
-:checkred_flag:release
+:up: atualização(texto, formatação)
+:beetle: correção de bug
+:checkered_flag: release
