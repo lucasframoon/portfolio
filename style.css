@@ -10,15 +10,15 @@
 }
 
 :root{
-    --font-primary: "Baloo Da 2", serif; /*fonte baloo e serifada como opcional*/
+    --font-primary: "Baloo Da 2", serif; 
     --font-secundary: "Josefin Slab", serif;
     --font-action: "Mulish", serif;
 }
 
 header{
     width: 100%;
-    height: 100%vh; /*view header, 100% tamanho da tela qnd carregar(cel ou pc*/
-    overflow: hidden;/*impossibilita o cabeçalho passar a janela*/
+    height: 100%vh; 
+    overflow: hidden;
     position: relative;
 }
 
@@ -44,7 +44,7 @@ header{
 .line{
     width: 100%;
     height: .1rem;
-    background-color: #fc4a1a;
+    background-color: #09b9e0;
     box-shadow: 0.1rem 0.1rem 1px rgba(0, 0, 0, 0.5);
     transition: transform 1s;
 }
@@ -70,8 +70,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#fc4a1a;
-    color: #FFF;
+    background-color:#dfdce3;
+    color: #000;
     font-family: var(--font-action);
     opacity: 0;
 }
@@ -79,7 +79,7 @@ header{
 .hamburguer span::before{
     content: "";
     position: absolute;
-    border-right: .5rem solid #fc4a1a;
+    border-right: .5rem solid #dfdce3;
     border-top: .5rem solid transparent;
     border-left: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
@@ -95,15 +95,15 @@ header{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #000;
 }
 
-.img-wrapper img{/*seletor css*/
+.img-wrapper img{
     width: 100%;
     height: 100%;
-    object-fit: cover;/*imagem cobre a div*/
-    opacity: 0.7;
-    animation: zoom 25s /*timing-function delay iteration-count direction fill-mode*/;
+    object-fit: cover;
+    opacity: 0.8;
+    animation: zoom 25s;
 }
 
 @keyframes zoom{
@@ -116,17 +116,17 @@ header{
 }
 
 .banner{
-    position: absolute;/*precisa estar dentro de um relativo*/
+    position: absolute;
     top: 10%;
     left: 15%;
 }
 
 .banner h1{/*seletor> só o h1 que está dentro do banner*/
-    color: #fc4a1a;
+    color: #dfdce3;
     font-size: 3rem;/*proporcional a fonte principal*/
     font-family: var(--font-primary);
     font-weight: 300;
-    text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.5);
+    text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.8);
     line-height: 3.5rem;
     margin-bottom: 2rem;
     animation: moveBanner 1s 0.5s forwards;
@@ -134,7 +134,7 @@ header{
 }
 
 .banner p{
-    color: #fff;
+    color: #09b9e0;
     font-family: var(--font-secundary);
     font-size: 2rem;
     text-shadow: .2rem .3rem 2px rgba(0, 0, 0, 0.5);
@@ -148,9 +148,9 @@ header{
     color: rgb(0, 0, 0);
     letter-spacing: .1rem;
     text-transform: uppercase;
-    background: #8E2DE2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc4a1a, #dfdce3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc4a1a, #dfdce3); /*IE 10+/ Edge*/
+    background: #09b9e0;  
+    background: -webkit-linear-gradient(to right, #09b9e0, #dfdce3);
+    background: linear-gradient(to right, #09b9e0, #dfdce3); 
     padding: 1rem 2rem;
     border: hidden;
     border-radius: 5px;
@@ -180,7 +180,7 @@ header{
 .sidebar{
     width: 20rem ;
     height: 100vh;
-    background-color: #fff;
+    background-color: #313438;
     position: fixed;
     top: 0;
     right: -20rem;
@@ -210,13 +210,13 @@ header{
 .menu-link{
     font-family: var(--font-action);
     font-size: 2rem;
-    color: #555;
+    color: #09b9e0;
     transition: color 1s;
 }
 
 
 .menu-link:hover{
-    color: #8E2DE2;
+    color: #FFF;
 }
 
 .social-media{
@@ -229,7 +229,7 @@ header{
 
 .social-media i{
     
-    color: #8E2DE2;
+    color: #3ec40e;
     height: 2.5rem;
     width: 2.5rem;
     font-size: 2rem;
@@ -241,7 +241,7 @@ header{
 }
 
 .social-media i:hover{
-    color: #7400e0;
+    color: #fff;
     opacity: .8;
 }
 
@@ -281,7 +281,7 @@ header{
 
 
 .sessao-conhecimentos{
-    background-color:  #dfdce3;
+    background-color:  #2c2d30;
 }
 
 .sessao-header{
@@ -293,8 +293,8 @@ header{
 .sessao-header h1{
     font-family: var(--font-primary);
     font-size: 3rem;
-    color: #fc4a1a;
-    border-bottom: solid 3px #fc4a1a;
+    color: #3ec40e;
+    border-bottom: solid 3px #3ec40e;
     margin-bottom: 1.5rem;
 }
 
@@ -307,7 +307,7 @@ header{
 
 .conhecimento-header i{
     font-size: 2.5rem;
-    color: #f78733;
+    color: #3ec40e;
 }
 
 .conhecimento-header h3{
